@@ -1,0 +1,45 @@
+/* src/styles/ListAttendances.css */
+.listar-consultas-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.listar-consultas-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.status {
+    font-weight: bold;
+}
+
+.status.pendente {
+    color: darkred;
+}
+
+.status.realizada {
+    color: green;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul li p {
+    margin: 5px 0;
+}
